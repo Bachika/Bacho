@@ -1,8 +1,7 @@
-div{
+.divResult{
     padding: 10px;
     width: 300px;
-    min-height: 70px;
-    margin: 10px auto;
-    border: solid green 3px;
-    font-size: 1.5em;
+    height: 50px;
+    margin: auto;
+    border: solid green 2px;
 }

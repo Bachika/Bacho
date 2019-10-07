@@ -1,21 +1,18 @@
-function testNumbers1(){
-    rs = document.getElementById("result1")
-    rs.innerHTML = Number.MAX_VALUE;
-    rs.innerHTML += "<br><br>";
-    rs.innerHTML += Number.MIN_VALUE;
+function testJsConsle(){
+    console.log("Hello JS, I am console!!!");
 }
 
-function testNumbers2() {
-    return Math.floor(Math.random()*(11));
+function testJsAlert(){
+    alert("Hello JS, I am alert!!!");
 }
 
-function testNumbers3(a, b){
-    rs = document.getElementById("result3");
-    a = Math.ceil(a);
-    b = Math.floor(b);
-    return Math.floor(Math.random() * (b-a+1) + a);
+function sumOfTwoNumbers(a, b){
+    console.log(a+b);
 }
 
-function testNumbers4(a, b, c){
-    return Math.max(a, b, c) - Math.min(a, b, c);
+
+function textInputDiv(text){
+    x = document.getElementById("result");
+    x.innerText = text;
 }
+
